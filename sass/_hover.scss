@@ -1,0 +1,27 @@
+.form__button{
+    cursor: pointer;
+}
+.footer__form__button{
+    cursor: pointer;
+}
+.Header__button{
+    cursor: pointer;
+}
+.section-2__button{
+    cursor: pointer;
+}
+
+body{
+    animation: fadein 2s;
+}
+
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+

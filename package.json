@@ -1,0 +1,17 @@
+{
+  "name": "taskia",
+  "version": "1.0.0",
+  "description": "for downloading gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Putaj",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.50.1"
+  }
+}

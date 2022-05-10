@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    h1{
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 47px;
+        letter-spacing: -0.06em;
+        line-height: 18px;
+        color: #525ffb;
+    }
+    .Header__button{
+        width: 200px;
+        height: 58px;
+        border-radius: 29px;
+        background: transparent;
+        border: 2px solid #525ffb;
+        margin-top: 20px;
+        span{
+            font-family: Muli;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 0.05em;
+            line-height: 27px;
+            text-align: left;
+            color: #525ffb;
+        }
+    }
+}

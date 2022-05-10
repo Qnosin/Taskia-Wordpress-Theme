@@ -1,0 +1,327 @@
+@media  screen and (min-width:500px) {
+    body{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .big_copy{
+        display: none;
+    }  
+}
+
+@media  screen and (min-width:750px) {
+    body{
+        margin-left: 150px;
+        margin-right: 150px;
+    }  
+}
+
+@media  screen and (min-width:1000px) {
+    body{
+        margin-left: 178px;
+        margin-right: 178px;
+        header{
+            flex-direction: row;
+            justify-content: space-between;
+            .Header__button{
+                margin-top: 0px;
+            }
+        }
+        main{
+            .main__picture__block{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .main__picture{
+               max-width: 50%;
+               margin: 0 auto;
+            }
+        }
+        .section-1{
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .block{
+                width: 768px;
+            }
+        }
+        .section-2{
+            .section-2-image-container{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }  
+}
+
+@media  screen and (min-width:1400px) {
+    body{
+        background-image: url('../img/bg.png');
+        background-position: left;
+    }
+    main{
+        .section-1{
+            h1{
+                margin-top: 273px;
+                font-size: 50px;
+            }
+        }
+        .section-with-image{
+            display: flex;
+            flex-direction: row;
+            order: 1;
+            margin-top: 236px;
+        }
+        .main__picture__block{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            order: 2;
+            .main__picture{
+                max-width: 100%;
+                height: fit-content; 
+             }
+        }
+        .section-with-image-description{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-right: 20px;
+        }
+        .main__form{
+            margin: 0;
+            form{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 40px;
+                .form__email{
+                    margin: 0;
+                    width: calc(100% - 250px);
+                }
+                .form__button{
+                    margin: 0;
+                }
+            }
+        }
+        .main__h1{
+            text-align: left;
+            font-size: 70px;
+            line-height: 97px;
+
+        }
+        .main__p{
+            text-align: left;
+            font-size: 20px;
+            line-height: 35px;
+
+        }
+        .section-3-image-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+      
+    }
+   
+}
+
+@media  screen and (min-width:1600px) {
+    .section-1{
+        position: relative;
+        margin-bottom: 458px;
+        align-items: flex-start !important;
+        h1{
+            margin-top: 458px;
+            margin-bottom: 107px;
+            font-size: 50px;
+            line-height: 60px;
+        }
+        .block{
+            width: 363.72px !important;
+            height: 476.29px !important;
+        }
+        .block__2{
+            position: absolute;
+            top: 453px;
+            left: 440px;
+        }
+        .block__3{
+            position: absolute;
+            top: 384px;
+            left: 880px;
+        }
+    }
+    .section-2{
+        .section-2__h1{
+            font-size: 50px;
+            line-height: 60px;
+        }
+        display: flex;
+        .small_copy{
+            display: none;
+        }
+        .big_copy{
+            display: block;
+        }  
+        .section-2-image-container{
+            order: 1;
+            position: relative;
+            img{
+                max-width: 787px;
+                height: 454px;
+                position: absolute;
+                right: 79px;
+            }
+        }
+        .section-2__centering{
+            order: 2;
+            width: 80%;
+            position: relative;
+            margin-bottom: 427px;
+        }
+        .section-2__p{
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+    }
+    .section-3{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 280px;
+        .section-3__h1{
+            width: 552px;
+            font-family: Poppins;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 60px;
+            text-align: left;
+            color: #1e1c24;
+            order: 1;
+            margin-bottom: 93px;
+        }
+        .section-3__container__bigscreen{
+            order: 2;
+            display: none;
+        }
+        .section-3__container__bigscreen__withH1{
+            display: block;
+        }
+        .section-3-image-container{
+            order: 3;
+        }
+        .applications{
+            justify-content: flex-start;
+        }
+        .section-3__p{
+            width: 552px;
+            height: 133px;
+            font-family: Muli;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: left;
+            color: #b1aaaa;
+            margin-bottom: 64px;
+            margin-right: 53px;
+        }
+        .section-3__ui__banner{
+            width: 717px;
+            height: 547px;
+        }
+    }
+    .section-4{
+        margin-bottom: 440px;
+        .section-4__h1{
+            text-align: center;
+            margin-bottom: 216px;
+        }
+        .section-4__people__img{
+            background-image: url('../img/Group\ 228.png');
+            width: 139.76px;
+            height: 139.76px;
+            display: block;
+            left: -17px;
+            top: 74px;
+        }
+        .section-4__people__img__smaller{
+            background-image: url('../img/Mask\ Group\ 1.png');
+            width: 88px;
+            height: 88px;
+            position: absolute;
+            top: 380px;
+            left: 187px;
+        }
+        .section-4__people__img__second{
+            background-image: url('../img/Group\ 228.png');
+            display: block;
+            width: 42.62px;
+            height: 34.97px;
+            left: -17px;
+            top: 674px;
+            position: absolute;
+            background-position: center;
+            padding: 40px;
+            border-radius: 60px;
+        }
+        .section-4__people__img__smaller__second{
+            background-image: url('../img/Mask\ Group\ 1.png');
+            width: 108.88px;
+            height: 108.88px;  
+            position: absolute;
+            top: 80px;
+            right: -103px;         
+            background-position: center; 
+            background-repeat: no-repeat;
+        }
+        .section-4__people__img__smaller__third{
+            background-image: url('../img/Mask\ Group\ 1.png');
+            width: 62.4px;
+            height: 62.4px;
+            position: absolute;
+            top: 300px;
+            right: 300px; 
+            background-position: center;
+            border-radius: 50px;
+            padding: 20px;
+            background-repeat: no-repeat;
+
+        }
+        .section-4__people__img_third{
+            background-image: url('../img/Group\ 228.png');
+            width: 139.76px;
+            height: 139.76px;
+            top: 600px;
+            right: 130px; 
+            position: absolute;
+
+        }
+        .section-4__amount__of__users{
+            font-family: Poppins;
+            font-weight: normal;
+            font-size: 150px;
+            line-height: 60px;
+            text-align: center;
+            color: #525ffb;
+        }
+    }
+    footer{
+        form{
+            flex-direction: row;
+            justify-content: center;
+            .footer__form__email{
+                margin: 1rem 0 0 0;
+            }
+        }
+    }
+  
+
+
+}

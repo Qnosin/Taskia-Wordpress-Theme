@@ -1,0 +1,20 @@
+//reset
+@use 'reset';
+
+//body
+@use 'body';
+
+//Header
+@use 'header';
+
+//Main
+@use 'blocks-main';
+
+//Footer
+@use 'footer';
+
+//Media Queries
+@use 'media';
+
+//Hover and animation
+@use 'hover';

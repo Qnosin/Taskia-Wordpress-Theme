@@ -1,0 +1,57 @@
+footer{
+    margin-bottom: 5rem;
+    .footer__h1{
+        height: fit-content;
+        font-family: Poppins;
+        font-weight: 900;
+        font-size: 2rem;
+        letter-spacing: -0.01em;
+        line-height: 40px;
+        text-align: center;
+        color: #1e1c24;
+        margin-top: 5rem;
+        padding: 5px;
+    }
+    .footer__p{
+        height: 75px;
+        font-family: Muli;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 35px;  
+        text-align: center;
+        color: #1e1c24;
+    }
+    form{
+        height: fit-content;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .footer__form__email{
+            width: 220px;
+            height: 40px;
+            border-radius: 38.5px;
+            background: transparent;
+            border: 2px solid #ebebeb;
+            margin: 0 auto;
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .footer__form__button{
+            width: 170px;
+            height: 50px;
+            border-radius: 38.5px;
+            background: #525ffb;
+            margin-top: 1rem;
+            span{
+                font-family: Poppins;
+                font-weight: 600;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                line-height: 10px;
+                text-align: center;
+                color: #fff;
+            }
+        }
+    }
+}
